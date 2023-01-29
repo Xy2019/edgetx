@@ -23,6 +23,8 @@
 #include "opentx.h"
 #include "draw_functions.h"
 
+#include "tasks.h"
+#include "tasks/mixer_task.h"
 
 StatisticsViewPageGroup::StatisticsViewPageGroup() : TabsGroup(ICON_STATS)
 {
